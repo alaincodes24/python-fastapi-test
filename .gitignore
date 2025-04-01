@@ -1,0 +1,38 @@
+# Byte-compiled / Cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual Environment
+venv/
+.env
+*.env
+
+# Python package management
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Database / Storage
+*.sqlite3
+instance/
+migrations/
+
+# Docker
+*.dockerfile
+.envrc
+*.pid
+
+# Git / Secrets
+.git/
+*.pem
+*.key
+*.crt
